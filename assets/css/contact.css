@@ -1,0 +1,14 @@
+.content {
+    color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.input {
+    margin-bottom: 1em;
+    font-size: 1em;
+    width: 65%;
+}
+textarea {
+    margin-top: .25em;
+    font-size: 1em;
+    width: 65%;
+}
