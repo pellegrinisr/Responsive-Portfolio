@@ -6,7 +6,7 @@
     background-color: lightgray;
 }
 .node {
-   clear: both;
+    clear: both;
     position: absolute;
     float: left;
     padding: 1em;
@@ -15,7 +15,7 @@
 }
 .label {
     position: absolute;
-
+    color: white;
     font-size: 1em;
     background-color: #4aaaa5;
     width: 14%;
@@ -66,4 +66,101 @@
     content: "";
     clear: both;
     display: table;
+}
+
+@media screen and (max-width: 980px) {
+    .content img {
+        width: 20%;
+    }
+    .node {
+        top: 20%;
+        left: 5%;
+    }
+    .label {
+        font-size: .75em;
+        padding: 1%;
+    }
+    .nodeLabel {
+        margin-left: 7%;
+        margin-top: 27%;
+    }
+    .reactLabel {
+        margin-top: 22.5%;
+        margin-left: 51.5%;
+    }
+    .html5 {
+        margin-left: 1.5%;
+    }
+    .htmlLabel {
+        margin-top: 55.5%;
+        margin-left: 6%;
+    }
+    .css3 {
+        margin-left: 21%;
+    }
+    .cssLabel {
+        margin-top: 58.1%;
+        margin-left: 51.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nodeLabel {
+        margin-top: 28.9%;
+    }
+    .react {
+        margin-top: 6%;
+    }
+    .reactLabel {
+        margin-top: 27.5%;
+    }
+    .htmlLabel {
+        margin-top: 58%;
+    }
+    .cssLabel {
+        margin-top: 60.5%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .icon {
+        clear: both;
+        float: left;
+        position: relative;
+        margin: 0 0 0 0;
+    }
+    .content img {
+        width: 50%;
+       }
+    .node {
+        margin-bottom: 2%;
+        margin-left: 15%;
+    }
+    .react {    
+        margin-bottom: 2%;
+        margin-left: 20%;
+    }
+    .html5 {
+        margin-bottom: 2%;
+        margin-left: 20%;
+    }
+    .css3 {
+        margin-bottom: 2%;
+        margin-left: 20%;
+    }
+    .label { 
+        font-size: 1em;
+        width: 52%;
+        margin-left: 18.5%;
+    }
+    .nodeLabel {
+        margin-top: 54%;
+    }
+    .reactLabel {
+        margin-top: 109%;
+    }
+    .htmlLabel {
+        margin-top: 164.7%;
+    }
+    .cssLabel {
+        margin-top: 221%;
+    }
 }

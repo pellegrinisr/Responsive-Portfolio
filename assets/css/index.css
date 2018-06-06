@@ -97,8 +97,8 @@ ul li a {
 
 @media screen and (max-width: 768px) {
     .content {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 3%;
+        width: 87%;
     }
     h1 {
         font-size: 2.5em;
@@ -116,7 +116,8 @@ ul li a {
         left: 10em;
     }
     .stephenPic {
-        padding-bottom: .5em;
+        padding-bottom: 2%;
+        padding-top: 1%;    
     }
 }
 
