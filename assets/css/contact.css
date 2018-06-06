@@ -5,10 +5,30 @@
 .input {
     margin-bottom: 1em;
     font-size: 1em;
-    width: 65%;
+    width: 90%;
+    margin-top: .25em;
+    border: 1px solid #777777;
 }
 textarea {
     margin-top: .25em;
     font-size: 1em;
-    width: 65%;
+    width: 90%;
+    border: 1px solid #777777;
+}
+.submit {
+    color: white;
+    background-color: #4aaaa4;
+    border: none;
+    font-size: 1em;
+    padding: .5em 1em .5em 1em;
+    margin-top: 1em;
+}
+input::-webkit-input-placeholder {
+    font-weight: lighter;
+}
+input::-moz-placeholder {
+    font-weight: lighter;
+}
+input:-moz-placeholder {
+    font-weight: lighter;
 }
